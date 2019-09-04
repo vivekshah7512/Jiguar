@@ -1,4 +1,4 @@
-package com.app.jiguar.activity;
+package com.app.jiguarindia.activity;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -22,8 +22,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.app.jiguar.R;
-import com.app.jiguar.utilities.Utility;
+import com.app.jiguarindia.R;
+import com.app.jiguarindia.utilities.Utility;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
@@ -134,7 +134,7 @@ public class HomeActivity extends Activity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if ((keyCode == KeyEvent.KEYCODE_BACK) && this.webView.canGoBack()) {
-            if (Url.equalsIgnoreCase("https://app.jiguar.com/leaper/ChildrenList")) {
+            if (Url.equalsIgnoreCase("https://app.jiguar.in/leaper/ChildrenList")) {
                 System.exit(0);
                 finishAffinity();
             } else {
@@ -149,7 +149,7 @@ public class HomeActivity extends Activity {
         if (isNetworkAvaliable(mContext)) {
             ll_no_data.setVisibility(View.GONE);
             webView.setVisibility(View.VISIBLE);
-            webView.loadUrl("https://app.jiguar.com/login");
+            webView.loadUrl("https://app.jiguar.in/login");
             webView.addJavascriptInterface(new MyJavaScriptInterface(HomeActivity.this), "HtmlViewer");
             webview_hidden.addJavascriptInterface(new MyJavaScriptInterface(HomeActivity.this), "HtmlViewer");
             pd = ProgressDialog.show(mContext, "",
@@ -169,10 +169,10 @@ public class HomeActivity extends Activity {
                 public void onPageFinished(WebView view, String url) {
                     Url = url;
                     pd.dismiss();
-                    if (url.equalsIgnoreCase("https://app.jiguar.com/leaper/ChildrenList")) {
-                        webview_hidden.loadUrl("https://app.jiguar.com/Myphone");
+                    if (url.equalsIgnoreCase("https://app.jiguar.in/leaper/ChildrenList")) {
+                        webview_hidden.loadUrl("https://app.jiguar.in/Myphone");
                     }
-                   /* else if (url.equalsIgnoreCase("https://app.jiguar.com/login")) {
+                   /* else if (url.equalsIgnoreCase("https://app.jiguar.in/login")) {
                         RateThisApp.showRateDialog(HomeActivity.this);
                     }*/
                 }
@@ -192,7 +192,7 @@ public class HomeActivity extends Activity {
                 public void onPageFinished(WebView view, String url) {
                     Url = url;
                     pd.dismiss();
-                    if (url.equalsIgnoreCase("https://app.jiguar.com/Myphone")) {
+                    if (url.equalsIgnoreCase("https://app.jiguar.in/Myphone")) {
                         webview_hidden.loadUrl("javascript:HtmlViewer.showHTML" +
                                 "('<html>'+document.getElementsByTagName('html')[0].innerHTML+'</html>');");
                     }
@@ -269,7 +269,7 @@ public class HomeActivity extends Activity {
         // ======================================================================================================
 
         private Object getAboutMeListItem() {
-            String webUrl = "https://admin.jiguar.com/api/ParentsPhoneInfos/GetParentsPhoneInfos?id=" +
+            String webUrl = "https://admin.jiguar.in/api/ParentsPhoneInfos/GetParentsPhoneInfos?id=" +
                     userid +
                     "&PhoneType=2&PhoneToken=" +
                     Utility.getAppPrefString(mContext, "device_token");

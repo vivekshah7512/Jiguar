@@ -1,4 +1,4 @@
-package com.app.jiguar.activity;
+package com.app.jiguarindia.activity;
 
 import android.app.Application;
 

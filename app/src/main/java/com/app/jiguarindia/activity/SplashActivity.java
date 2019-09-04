@@ -1,4 +1,4 @@
-package com.app.jiguar.activity;
+package com.app.jiguarindia.activity;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -12,7 +12,7 @@ import android.support.v7.app.AlertDialog;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.app.jiguar.R;
+import com.app.jiguarindia.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;

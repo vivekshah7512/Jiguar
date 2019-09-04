@@ -5,11 +5,11 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        applicationId "com.app.jiguar"
+        applicationId "com.app.jiguarindia"
         minSdkVersion 17
         targetSdkVersion 28
-        versionCode 9
-        versionName "7.0"
+        versionCode 1
+        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }

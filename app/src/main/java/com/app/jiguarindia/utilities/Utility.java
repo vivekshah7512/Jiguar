@@ -1,4 +1,4 @@
-package com.app.jiguar.utilities;
+package com.app.jiguarindia.utilities;
 
 import android.app.Activity;
 import android.content.Context;

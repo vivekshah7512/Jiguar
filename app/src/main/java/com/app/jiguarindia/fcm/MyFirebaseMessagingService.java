@@ -1,4 +1,4 @@
-package com.app.jiguar.fcm;
+package com.app.jiguarindia.fcm;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -12,7 +12,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 
-import com.app.jiguar.R;
+import com.app.jiguarindia.R;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 

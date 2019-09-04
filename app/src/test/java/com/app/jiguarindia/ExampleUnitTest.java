@@ -1,4 +1,4 @@
-package com.app.jiguar;
+package com.app.jiguarindia;
 
 import org.junit.Test;
 

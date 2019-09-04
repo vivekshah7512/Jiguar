@@ -1,4 +1,4 @@
-package com.app.jiguar;
+package com.app.jiguarindia;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,52 +1,45 @@
 {
   "project_info": {
-    "project_number": "927838491317",
-    "firebase_url": "https://jiguar-c0495.firebaseio.com",
-    "project_id": "jiguar-c0495",
-    "storage_bucket": "jiguar-c0495.appspot.com"
+    "project_number": "933957267955",
+    "firebase_url": "https://jiguar-india.firebaseio.com",
+    "project_id": "jiguar-india",
+    "storage_bucket": "jiguar-india.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:927838491317:android:995d6d57db04431f",
+        "mobilesdk_app_id": "1:933957267955:android:462824e9d6dbaad2",
         "android_client_info": {
-          "package_name": "com.app.jiguar"
+          "package_name": "com.app.jiguarindia"
         }
       },
       "oauth_client": [
         {
-          "client_id": "927838491317-mi5pgc77ckiov9f58ntkgeetesuldjpo.apps.googleusercontent.com",
+          "client_id": "933957267955-65n1ld816esom7nhkhifl3m6j53gasip.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.app.jiguar",
+            "package_name": "com.app.jiguarindia",
             "certificate_hash": "af93b1f3589fc42683a5321e308212a32dc42909"
           }
         },
         {
-          "client_id": "927838491317-l6nv0e0pbifah2h8os72nvsrqhs2va37.apps.googleusercontent.com",
+          "client_id": "933957267955-mrr5o5m3nabloovqq7n8vcv8au93nfpi.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDcKaL8MlzyhvrgN5DpdB3K5yvH1n8jUes"
+          "current_key": "AIzaSyB8kEpQUehquqiKTtfL44bJuSs8kPHDIaE"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "927838491317-l6nv0e0pbifah2h8os72nvsrqhs2va37.apps.googleusercontent.com",
+              "client_id": "933957267955-mrr5o5m3nabloovqq7n8vcv8au93nfpi.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }
